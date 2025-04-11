@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perlin Noise Visualization</title>
+  <style>
+    canvas {
+      border: 1px solid #ccc;
+    }
+    .controls {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <label>Scale: <input type="range" id="scale" min="10" max="100" value="50"></label>
+    <label>Speed: <input type="range" id="speed" min="0" max="100" value="30"></label>
+  </div>
+  <canvas id="canvas" width="600" height="400"></canvas>
+  <script type="module" src="perlin.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
